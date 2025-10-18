@@ -119,7 +119,7 @@ export default function HauruPortfolio() {
             <div className="space-y-4">
               <div className="aspect-[3/4] bg-gray-900 rounded-lg overflow-hidden">
                 <Image
-                  src="/professional-host-portrait.jpg"
+                  src="hauru-main.jpg"
                   alt="Hauru Main Photo"
                   width={600}
                   height={800}
