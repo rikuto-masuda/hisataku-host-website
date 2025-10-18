@@ -313,7 +313,7 @@ export default function HauruPortfolio() {
         <div className="container mx-auto max-w-4xl text-center space-y-4">
           <h3 className="text-2xl font-serif font-bold mb-6">STORE INFORMATION</h3>
           <p className="text-xl font-semibold">ALL GROUP</p>
-          <p className="text-gray-400">〒000-0000 東京都渋谷区〇〇 1-2-3 〇〇ビル 5F</p>
+          <p className="text-gray-400">〒06-6575-7097 大阪府大阪市中央区東心斎橋 2-6-13 日宝ナイトビル 4F</p>
           <p className="text-gray-400">TEL: 03-0000-0000</p>
           <p className="text-gray-400">営業時間: 20:00 - 5:00</p>
           <div className="pt-8 mt-8 border-t border-gray-800">
