@@ -129,7 +129,7 @@ export default function HauruPortfolio() {
               <div className="grid grid-cols-3 gap-4">
                 <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
-                    src="/host-casual-photo-1.jpg"
+                    src="hauru-sub1.jpg"
                     alt="Hauru Photo 1"
                     width={300}
                     height={300}
@@ -138,7 +138,7 @@ export default function HauruPortfolio() {
                 </div>
                 <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
-                    src="/host-casual-photo-2.jpg"
+                    src="hauru-sub2.jpg"
                     alt="Hauru Photo 2"
                     width={300}
                     height={300}
@@ -147,7 +147,7 @@ export default function HauruPortfolio() {
                 </div>
                 <div className="aspect-square bg-gray-900 rounded-lg overflow-hidden">
                   <Image
-                    src="/host-casual-photo-3.jpg"
+                    src="hauru-sub3.jpg"
                     alt="Hauru Photo 3"
                     width={300}
                     height={300}
