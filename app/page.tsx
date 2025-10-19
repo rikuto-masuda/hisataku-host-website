@@ -254,11 +254,15 @@ export default function HauruPortfolio() {
       <section id="schedule" className="py-20 px-4">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-12 text-center">SCHEDULE</h2>
-          <div className="bg-gray-900 rounded-lg p-8 md:p-12 flex items-center justify-center min-h-[400px] border-2 border-dashed border-[#00BFFF]/30">
-            <div className="text-center">
-              <p className="text-gray-400 text-lg mb-2">月間スケジュール</p>
-              <p className="text-gray-500">画像をアップロードしてください</p>
-            </div>
+          <div className="bg-gray-900 rounded-lg border-2 border-dashed border-[#00BFFF]/30 overflow-hidden">
++             <Image
++               src="/hauru-shift.jpg" // ここにアップロードしたファイル名を指定
++               alt="はうるくんの月間スケジュール"
++               width={1000} // 画像のオリジナルの幅に応じて調整（後述）
++               height={1500} // 画像のオリジナルの高さに応じて調整（後述）
++               className="w-full h-auto object-contain" // はみ出さずに全体表示するスタイル
++               priority // ページの表示時に優先的に読み込む設定
++             />
           </div>
         </div>
       </section>
